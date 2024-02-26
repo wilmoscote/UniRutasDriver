@@ -1,0 +1,23 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.UniRutasDriver" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/black</item>
+        <item name="colorSurfaceContainer">@color/general_background_color</item>
+        <item name="colorOnSecondaryContainer">@color/black</item>
+        <item name="colorSecondaryContainer">@color/uniguajira_orange_light</item>
+        <item name="colorOnSecondary">@color/white</item>
+        <item name="colorPrimaryDark">@color/black</item>
+        <item name="colorAccent">@color/black</item>
+    </style>
+
+    <style name="Theme.UniRutasDriver" parent="Base.Theme.UniRutasDriver" >
+        <item name="android:fontFamily">@font/lexend_regular</item>
+    </style>
+
+    <style name="Theme.App.Starting" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">@color/uniguajira_orange</item>
+        <item name="windowSplashScreenAnimatedIcon">@drawable/ic_launcher_foreground</item>
+        <item name="windowSplashScreenAnimationDuration">300</item>
+        <item name="postSplashScreenTheme">@style/Base.Theme.UniRutasDriver</item>
+    </style>
+</resources>

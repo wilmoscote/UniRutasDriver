@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">UniRutasDriver</string>
+    <string name="home_title">Inicio</string>
+    <string name="profile_title">Perfil</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_text_welcome">Hola 👋🏻 Conductor.\nBienvenido de nuevo.</string>
+</resources>
